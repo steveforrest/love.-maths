@@ -17,8 +17,11 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 })
 
-function runGame(){
-
+ function runGame(){
+    let num1 = Math.ceiling(Math.random()*25);
+    let num2 = Math.floor(Math.random() * 25 +1); 
+    console.log(num1);
+    console.log(num2);
 }
 
 function checkanswer(){
