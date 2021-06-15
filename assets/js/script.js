@@ -39,7 +39,9 @@ function checkanswer(){
 }
 
 function calculateCorrectAnswer(){
-
+    let operand1 = parse(document.getElementById('operand1').innerText);
+    let operand2 = parse(document.getElementById('operand2').innerText);
+    let operator = document.getElementById('operator').innerText;
 }
 
 function incrementScore(){
